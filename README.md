@@ -114,4 +114,23 @@ Next.js 라우터는 `client-side navigation`과 함께 `server-centric routing`
 app/blog/postList
 이거 좀 더 봐야겠다. @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
+<br>
+
+## useRouter() hook
+
+클라이언트 컴포넌트에서 사용된다.
+
+서버 컴포넌트에서 에러남.
+
+```js
+      <button type="button" onClick={() => router.push('/dashboard')}>
+        Dashboard 
+      </button>
+```
+
+push(), refresh() 등의 메서드도 지원.
+
+특별히 이유없으면 Link 쓰란다.
+
+
 https://beta.nextjs.org/docs/routing/linking-and-navigating
